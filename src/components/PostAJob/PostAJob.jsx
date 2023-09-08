@@ -13,7 +13,7 @@ const PostAJob = () => {
         not only fun to do <br /> but cheaper as well.
       </p>
       <div className="text-center mt-12">
-        <button className="px-14 py-5 bg-[#5248AA] text-[#FFFFFF] text-base font-bold rounded-md">
+        <button className="px-14 py-5 bg-[#5248AA] text-[#FFFFFF] border border-[#5248AA] hover:text-[#5248AA] hover:bg-[#FFF] duration-300 text-base font-bold rounded-md">
           POST A JOB
         </button>
       </div>
