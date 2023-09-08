@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/Rectangle.svg";
+import image from "../../assets/man.png";
 
 const FindGreatWork = () => {
   return (
