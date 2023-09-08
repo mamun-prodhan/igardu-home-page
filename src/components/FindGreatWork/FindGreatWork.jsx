@@ -3,9 +3,13 @@ import image from "../../assets/Rectangle.svg";
 
 const FindGreatWork = () => {
   return (
-    <div className="container m-auto flex flex-col md:flex-row">
+    <div className="container m-auto flex flex-col md:flex-row gap-5 mb-28 items-center">
       <div className="flex-1">
-        <img src={image} alt="" />
+        <img
+          className="bg-[#5248AA] pt-12 px-2  rounded-t-[50%]"
+          src={image}
+          alt=""
+        />
       </div>
       <div className="flex-1">
         <div>
