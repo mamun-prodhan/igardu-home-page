@@ -21,21 +21,21 @@ const PostAJob = () => {
         src={rightImage}
         alt=""
       />
-      <div className="absolute top-[10%] left-[20%] translate-x-[-50%] translate-y-[-50%] ps-2 pt-2 pe-6 pb-2  rounded-s-full bg-[#A5A4F7] bg-opacity-25">
+      <div className="absolute top-[10%] left-[20%] translate-x-[-50%] translate-y-[-50%] ps-1 md:ps-2 pt-1 md:pt-2 pe-4 md:pe-6 pb-1 md:pb-2  rounded-s-full bg-[#A5A4F7] bg-opacity-25">
         <img
           className="rounded-full border-2 border-[#FFF]"
           src={man2}
           alt=""
         />
       </div>
-      <div className="absolute top-[80%] right-[-2%] translate-x-[-50%] translate-y-[-50%] ps-2 pt-6 pe-2 pb-2  rounded-b-full bg-[#A5A4F7] bg-opacity-25">
+      <div className="absolute top-[70%] lg:top-[80%] right-[-2%] translate-x-[-50%] translate-y-[-50%] ps-1 md:ps-2 pt-4 md:pt-6 pe-1 md:pe-2 pb-1 md:pb-2  rounded-b-full bg-[#A5A4F7] bg-opacity-25">
         <img
           className="rounded-full border-2 border-[#FFF]"
           src={man3}
           alt=""
         />
       </div>
-      <div className="absolute top-[1%] left-[4%] translate-x-[-50%] translate-y-[-50%] ps-2 pt-2 pe-2 pb-6  rounded-t-full bg-[#A5A4F7] bg-opacity-20">
+      <div className="absolute top-[-5%] md:top-[1%] left-[4%] translate-x-[-50%] translate-y-[-50%] ps-2 pt-2 pe-2 pb-6  rounded-t-full bg-[#A5A4F7] bg-opacity-20">
         <img
           className="rounded-full border-2 border-[#FFF]"
           src={man4}
@@ -48,7 +48,7 @@ const PostAJob = () => {
         alt=""
       />
       <img
-        className="absolute top-[90%] right-[80%] translate-x-[-50%] translate-y-[-50%] rounded-full border-2 border-[#FFF]"
+        className="absolute top-[80%] md:top-[90%] right-[80%] translate-x-[-50%] translate-y-[-50%] rounded-full border-2 border-[#FFF]"
         src={man6}
         alt=""
       />
