@@ -6,6 +6,8 @@ import man3 from "../../assets/man3.png";
 import man4 from "../../assets/man4.png";
 import man5 from "../../assets/man5.png";
 import man6 from "../../assets/man6.png";
+import officer from "../../assets/officer.png";
+import star from "../../assets/star.png";
 
 const PostAJob = () => {
   return (
@@ -52,6 +54,20 @@ const PostAJob = () => {
         src={man6}
         alt=""
       />
+
+      <div className="flex flex-row gap-2 absolute top-[-4%] md:top-[10%] right-[-12%] md:right-[5%] translate-x-[-50%] translate-y-[-50%]  border-2 border-[#FFF] p-3 drop-shadow-sm rounded-md">
+        <div>
+          <img className="rounded-full" src={officer} alt="" />
+        </div>
+        <div>
+          <p className="text-[10px] font-semibold m-0 text-[#5248AA]">
+            Herbert Alison
+          </p>
+          <p className="text-[8px] text-[#596F6C] mb-0.5">Security Officer</p>
+          <img src={star} alt="" />
+        </div>
+      </div>
+
       {/*  */}
       <h2 className="text-3xl md:text-4xl lg:text-5xl text-center font-bold text-[#29273E]">
         More then <br />
