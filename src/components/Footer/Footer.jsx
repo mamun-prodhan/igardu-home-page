@@ -29,9 +29,9 @@ const Footer = () => {
   ];
 
   return (
-    <div className=" bg-[#29273E] pt-56 pb-10 lg:pb-28 px-3 md:px-8 lg:px-24 relative">
-      {/*  */}
-      <div className="container m-auto bg-[#5248AA] py-6 md:py-10 lg:py-12 px-3 md:px-6 lg:px-36 rounded-[10px] flex flex-col lg:flex-row-reverse items-center gap-5 lg:gap-40 absolute top-[-1%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
+    <div className=" relative  pt-56 pb-10 lg:pb-28 px-3 md:px-8 lg:px-24 bg-[#29273E]">
+      {/*div in the middle of two section */}
+      <div className="absolute w-[95%] md:w-[90%] lg:w-[80%] bg-[#5248AA] py-6 md:py-10 lg:py-12 px-3 md:px-6 lg:px-36 rounded-[10px] flex flex-col lg:flex-row-reverse items-center gap-5 lg:gap-40 top-[-1%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
         <div className="flex-1">
           <img className="mx-auto" src={logo} alt="logo" />
         </div>
@@ -48,7 +48,7 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      {/*  */}
+      {/* end div  */}
       <div className="flex gap-5 md:gap-0 flex-col md:flex-row items-center justify-between text-base md:text-lg text-center md:text-start text-[#FFF] mb-12 mg:mb-16 lg:mb-28">
         {datas.map((data, index) => (
           <FooterItem data={data} key={index}></FooterItem>

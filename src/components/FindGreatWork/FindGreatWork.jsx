@@ -6,7 +6,7 @@ const FindGreatWork = () => {
     <div className="container m-auto flex flex-col md:flex-row gap-10 p-3 md:p-6 mb-56 items-center">
       <div className="flex-1">
         <img
-          className="bg-[#5248AA] pt-12 px-2  rounded-t-[50%]"
+          className="pt-12 px-2  rounded-t-[50%] bg-[#5248AA] "
           src={image}
           alt=""
         />
